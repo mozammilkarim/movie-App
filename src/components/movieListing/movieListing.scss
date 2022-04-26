@@ -1,0 +1,17 @@
+.movieList {
+  margin: 20px 0px;
+  margin-top: 0;
+  font-size: 3vmax;
+  padding: 1vmax 0;
+  text-align: end;
+  h2 {
+    color: grey;
+    margin-bottom: 10px;
+    font-weight: 400;
+  }
+}
+.movieContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  grid-gap: 15px;
+}
