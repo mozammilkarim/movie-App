@@ -15,7 +15,7 @@ function App() {
         {/* exact keyword is not needed */}
         <Route  path="/" element={<Home />} />
         <Route path="/movie/:imdbId" element={<MovieDetail />} />
-        <Route path="/*" element={<PageNotFound />} />
+        {/* <Route path="/*" element={<PageNotFound />} /> */}
 
       </Routes>
       </div>
