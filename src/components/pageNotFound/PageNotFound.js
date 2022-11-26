@@ -2,7 +2,7 @@ import React from 'react'
 
 const PageNotFound = () => {
   return (
-    <div>PageNotFound</div>
+    <div style={{textAlign:'center',marginBottom:'60vh',marginTop:'10rem'}}>PageNotFound!</div>
   )
 }
 

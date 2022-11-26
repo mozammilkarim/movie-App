@@ -1,8 +1,10 @@
 .searchBar{
-    position: relative;
-    top: 4vmax;
+    text-align: start;
 }
 #moviesSearchBar{
     outline: none;
     padding: 1vmax;
+    border-radius: 0.3rem;
+    border-color: rebeccapurple;
+    background: none;
 }

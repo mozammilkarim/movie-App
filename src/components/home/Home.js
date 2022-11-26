@@ -14,8 +14,8 @@ const Home = () => {
   },[dispatch,filteredValue])
 
   return (
-    <div>
-      <div className="searchBar">
+    <div style={{margin:'1rem',textAlign:'center'}}>
+      <div  >
         <input type="search" name="moviesSearchBar" id="moviesSearchBar"
         placeholder='Enter movies name..' onChange={(e)=>{
           setFilteredValue(e.target.value)

@@ -1,10 +1,12 @@
 .cardItem {
-    background: grey;
+    // background: black;
+    color: white;
     cursor: pointer;
     transition: all 0.3s;
   
     &:hover {
-      transform: scale(1.1);
+      transform: scale(1.05);
+      box-shadow: 1px -1px 16px 6px rebeccapurple;
     }
   }
   
@@ -20,7 +22,7 @@
     padding: 20px;
   }
   .cardInfo {
-    color: black;
+    background-color: black;
     h4 {
       font-size: 22px;
       font-weight: 400;

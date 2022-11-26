@@ -6,9 +6,12 @@
 a{
     text-decoration: none;
 }
-body{
-    background-color: rgba(102, 99, 99, 0.7);
-}
-.container{
-    margin: 0 4vmax;
+// body{
+//     // background-color: rgba(102, 99, 99, 0.7);
+// }
+// .container{
+//     margin: 0 4vmax;
+// }
+::placeholder{
+    color: black;
 }
