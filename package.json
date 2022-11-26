@@ -1,6 +1,6 @@
 {
-  "homepage": "http://mozammilkarim.github.io/movieApp",
-  "name": "movieapp",
+  "homepage": "http://mozammilkarim.github.io/movie-app",
+  "name": "movie-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
